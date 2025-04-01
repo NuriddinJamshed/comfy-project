@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.6.0-web/css/all.css">
+</head>
+<body>
+    <nav>
+        <menu>
+            <a href="/home/home.html">Home</a>
+            <a style="color: #ff3535;" href="/product/product.html">Products</a>
+            <a href="/about/about.html">About</a>
+        </menu>
+        <h1>comfy</h1>
+        <div class="card">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p class="alert"></p>
+        </div>
+    </nav>
+    <section>
+        <h1>Home / Products</h1>
+    </section>
+    <main>
+        <div class="actions">
+            <input type="search" class="inpSearch" placeholder="Search">
+            <div class="categories">
+                <h3>Company</h3>
+                <button class="allCategory">All</button>
+                <button class="Ikea">Ikea</button>
+                <button class="Marcos">Marcos</button>
+                <button class="Caressa">Caressa</button>
+                <button class="Liddy">Liddy</button>
+            </div>
+            <div class="price">
+                <h3>Price</h3>
+                <input type="range" max="500" min="5" step="5" class="rangePrise">
+                <p class="value"></p>
+            </div>
+        </div>
+        <div class="box"></div>
+        <dialog class="cardModal">
+            <div class="line-card">
+                <button class="closeCardModal">✖</button>
+                <h1>Your Bag</h1>
+            </div>
+            <div class="main-line">
+                <div class="bag"></div>
+                <div class="total">
+                    <div class="total-line">
+                        <p>Total:</p>
+                        <p class="totalPrise">$0</p>
+                    </div>
+                    <button class="check-total">CHECKOUT</button>
+                </div>
+            </div>
+        </dialog>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./product.js"></script>
+</body>
+</html>

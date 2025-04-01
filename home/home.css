@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("https://s3-alpha-sig.figma.com/img/c006/6f4c/b4e3d1753ca503c388370c56c985c7ec?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=BCBbXUnkDnG0bxe2bDBUzEEI89Oedbic~aORaIJ44jvG3svRNcr9kmCr93OavXLF1ASvJTs3VXJPiqvRRk8kQtOVud68aUt3vuZRY3cTLxAibaMeqWwh86dDAFH2Gv9~Gg4o0L1r-ZUz5SX-~bR-mKTsGXr8Nw4EUBOACNZCca3rvWRgQqn9QUqAPl5vJaZfIaUaJFkr4mPOGKBrNQU2NuxWaVrp7G-uVmEpBWpyq4KUoSe~KtDCWy8V7vu6X35rF14J5rprczPjDZlAsL4H845~PNwmVb-N8g~6EjXETzAwqF9GpPH3ljtKJy6Vj7gO7-5YantmB0Uk1aKjxVE2fA__");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 36px;
+    color: white;
+    font-style: italic;
+}
+
+menu{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+
+menu a:hover{
+    color: #ff3535;
+}
+
+section{
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+}
+
+section h1{
+    font-style: italic;
+    font-size: 72px;
+}
+
+section span{
+    font-size: 42px;
+}
+
+section a{
+    margin-top: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+section a:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.card i{
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card p{
+    text-align: center;
+    color: white;
+    background-color: #ff3535;
+    border-radius: 50%;
+    padding: 2px 5px;
+    width: 10px;
+    position: absolute;
+    top: 6px;
+    right: 4.5%;
+}
+
+.cover{
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 100vh;
+}
+
+main{
+    background-color: #ffffff;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main h1{
+    font-size: 48px;
+    color: #000000;
+}
+
+main h1 samp {
+    color: #BA5D2C;
+}
+
+main a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #BA5D2C;
+    width: 150px;
+    font-weight: 600;
+}
+
+main a:hover{
+    background-color: #ffffff;
+    color: #BA5D2C;
+    border: 1px solid #BA5D2C;
+}
+
+.box{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;    
+}
+
+.container{
+    width: 31.5%;
+    text-align: center;
+}
+
+.card-img{
+    width: 100%;
+    height: 200px;
+    image-resolution: center;
+}
+
+.card-name{
+    text-align: center;
+    color: #8f8f8f;
+    margin-top: 10px;
+}
+
+.container:hover {
+    transform: scale(1.05); 
+}
+
+.infoSpan{
+    background-color: #0084ff;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.cardSpan{
+    background-color: #ffae00;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.container:hover:hover .infoSpan,
+.container:hover .cardSpan {
+    display: block; 
+}
+
+.cardModal{
+    border: none;
+    width: 25%;
+    height: 110vh;
+    margin-left: 72%;
+    padding:20px;
+}
+
+.line-card h1{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.closeCardModal{
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 900;
+    color: #235275;
+    background-color: #fff;
+    border: none;
+}
+
+.card-box{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.card-box img{
+    width: 35%;
+    border-radius: 3px;
+    height: 100px;
+}
+
+.bag{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 65%;
+}
+
+.cnt-line{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cnt-line p{
+    font-size: 22px;
+}
+
+.cnt-line button {
+    font-size: 16px;
+    font-weight: 900;
+   background-color: #fff;
+   color: #BA5D2C;
+   border: 2px solid #BA5D2C;
+   padding: 0 3px;
+}
+
+.name-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-line p{
+    font-size: 20px;
+    font-weight: 10;
+    font-style: italic;
+}
+
+.name-line button{
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.main-line{
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.total-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.total-line p{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.check-total{
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #BA5D2C;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.price{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+@media (max-width: 400px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    menu {
+        gap: 0;
+        flex-direction: column;
+    }
+    section{
+        height: 50vh;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+    section h1 {
+        display: none;
+        font-size: 30px;
+    }
+    
+    section span {
+        display: none;
+        font-size: 24px;
+    }
+    section a{
+        text-align: center;
+    }
+    
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+
+    .card p{
+        top: 35vh;
+        right: 42.5%;
+    }
+    
+    .container {
+        width: 90%;
+    }
+    
+    .cardModal {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+

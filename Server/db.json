@@ -1,0 +1,135 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "image": "https://s3-alpha-sig.figma.com/img/ccb4/cfa0/9b1eddecfc35aad30a53c084b51325cd?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jVIiFCtPSez5Zog~q-PHRsD~lgdK7JRI29HpyYm9rEsTgsf1Jx4CHD~v9I1aLSpOFRVWEBwOivFKg3xIOafingqbnmNAyHcO3tSs0md7Rd5lHrAknq6y-8F75kA8B28zAF7B6pDSj2eTI17l9QeVsJGCc0u6bWWBh4A99sM8M91VTgxViUVQxFfX36Ed05el5kOSxGXRIS8aRbJzat3ZxrKusq6Yn8185dj1DH-AQrFofI9-tuB7jfiEEZjrV5~3LB5JZdlwUTYZbi6ghEbo5DpXkMq3zr5f6RXmdMCiSxOCqAkx1V~1EwLAdeCswM4xyEukUln9tl4ZG-ztImbetg__",
+      "name": "High-Back Bench",
+      "price": "10",
+      "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic  chillwave  trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge ",
+      "category": "MARCOS",
+      "status": "true",
+      "color": [
+        "#ff0000",
+        "#001eff"
+      ]
+    },
+    {
+      "id": "3",
+      "image": "https://s3-alpha-sig.figma.com/img/b277/6c04/4f455653713a590883ef545452ff7ba9?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uDPWgTeSlV3UyO2ag2L4o5U8gR6XOb16MjXjGy9Oeehi4Xab76micXiInWEaKvnei9o1crWO-3I0FMIn3wFoRG8VLKmJo1cRBRX69p4YmbetoiqMpxXl4akaNsQOHdz9s8jtb9C~bgbsvh4VGujYXCtYvygdJ-TQrsnI31BatToMGBiaO9EtVgG2hy~lzn1fn1azuO0DMZMDTwSiTWISHDma04jTXxP9JAJgc90BMW3Vn8zdYGEpE7U55tPN-DtROBPjB~HzcvY9zzbPnXRbQftAcUNpA2gNnOCb~OTvE-942tqvnJJj3CC4JsFS54KBEbhjA1NWLoapoUg~z7MZig__",
+      "name": "Entertainment Center",
+      "price": "29.98",
+      "description": "lorem ipsum dolor sit am id, consectetur adipiscing elit esse cillum.",
+      "category": "CARESSA",
+      "status": "true",
+      "color": [
+        "#ff0000",
+        "#00457a",
+        "#087a00"
+      ]
+    },
+    {
+      "image": "https://s3-alpha-sig.figma.com/img/d9c0/2bb4/19fee2708fac871587530887a399d070?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Bz4WLMPL2tCKWvP2M~5qEOCH22J2HWqg5NplzA1WcR5tAGB7~zYq5UFoRZjwhQG3wiQV0rYoMXZm~vQskWYoV1lm4to1o8zbXl9~~D972PXjJf826PJctpE8c6vn5QDOYLxv7iyTwHsGwGqu7SNKX6LJZNBISK-XHzRmBFK322M7s-bDixwlDJg05LVM5A2eYe14FNgYJMJ8UI39uKiMZWMQyfiS8-bxbRfcNKs7Q1nbj~tPr2K2T7~LvUj7lIugm39n8RagHIn1tboUj8FxCsypspW2ZbsrNI2siXp2WQfouXXsz1Zo2d-sakweMrgHq5Fm7ZyCe~NS2hJlPAe1WQ__",
+      "name": "Albany Table",
+      "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic  chillwave  trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge ",
+      "price": "79.99",
+      "category": "LIDDY",
+      "color": [
+        "#000000",
+        "#ff0000"
+      ],
+      "status": false,
+      "id": "4"
+    },
+    {
+      "id": "5f20",
+      "image": "https://s3-alpha-sig.figma.com/img/69ef/e151/0c692763ae2e411fe1c9608723d4b0b1?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=C-9OP54SrR9XrK9Rk7sJSHe3fV0N~3b8SGSASQTrd3Ql5SuNmbNBYc5fGJUqZMaCLBxWqPlYS-XPC9sknaNX~diabugcCNw00lF7j-VnuqsH-bCy5OyJdbOwBHSfJFH4orM4lTgDXEMW72Xt3brREBPuTIcoDSyraY11eL8-hMa3oTfQWMxspaVhTFWMqW98M7JcKDCbc6Hu3v1uQGu5inJo5lwyZn3AFdNubyJpR6ge~K7HDXhyV8a-pnvZNWqEoKGmYxP6EQX0QLIgQQ2mzL4SLK-zcxi8MbpbBk2GtObrTNm6l~JWUEWliPRn20JWOJbmq49fHR6DAtrJBSvrLQ__",
+      "name": "Chair",
+      "price": "25.23",
+      "description": "Lorem ipsum dolor set amit. Lorem is the platform for writing ",
+      "category": "IKEA",
+      "color": [],
+      "status": "true"
+    },
+    {
+      "id": "231c",
+      "image": "https://s3-alpha-sig.figma.com/img/b277/6c04/4f455653713a590883ef545452ff7ba9?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uDPWgTeSlV3UyO2ag2L4o5U8gR6XOb16MjXjGy9Oeehi4Xab76micXiInWEaKvnei9o1crWO-3I0FMIn3wFoRG8VLKmJo1cRBRX69p4YmbetoiqMpxXl4akaNsQOHdz9s8jtb9C~bgbsvh4VGujYXCtYvygdJ-TQrsnI31BatToMGBiaO9EtVgG2hy~lzn1fn1azuO0DMZMDTwSiTWISHDma04jTXxP9JAJgc90BMW3Vn8zdYGEpE7U55tPN-DtROBPjB~HzcvY9zzbPnXRbQftAcUNpA2gNnOCb~OTvE-942tqvnJJj3CC4JsFS54KBEbhjA1NWLoapoUg~z7MZig__",
+      "name": "Sofa Set",
+      "price": "25.23",
+      "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic  chillwave  trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge ",
+      "category": "IKEA",
+      "status": "true",
+      "color": [
+        "#000000",
+        "#ff0000"
+      ]
+    },
+    {
+      "id": "d6da",
+      "image": "https://s3-alpha-sig.figma.com/img/9e7e/66bd/d1575db81464f4c9c52602aaf6fb761b?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Ro4vJ7g9m2YWbPYyvu7LfxVVf-NjqnSGABHzPKDKdJfPjl2yISOTxtzXm77Tl1-MYZfFnTYqJHC3rT~cAZpNjQv9MLVmd8U8a4kdGZJxvF1Jmaah4MMuoec-LbtdLPrVus82mxN6N9nsWOn~Kvb45ZC8fA8Qjr1kwrPmGk4d1Qt4gVpNKXUwv-Kg7BbHCmduGUd-bT54~~WJ9-OUKGj7fMcNzHNMTRAKV51gWBjbtOiLbfB2nEBDWicR-u7Zqoc4gqjBPn3siaANC65j-jXl~D~tqrYvOQzki77qdIQac39iGn-Ha1imDnrZoFC35NG0FKWDh8iAv7HpTpUWTIhP-w__",
+      "name": "Sofa Set",
+      "price": "68.24",
+      "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic  chillwave  trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge ",
+      "category": "CARESSA",
+      "status": "true",
+      "color": [
+        "#000000",
+        "#ff0000",
+        "#8cff00"
+      ]
+    },
+    {
+      "id": "a982",
+      "image": "https://s3-alpha-sig.figma.com/img/e78f/1ed2/495b403c3ef27d9a207b97ea2fa7eb09?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YaX1ZdPhdB1NLkHWkQ5YhY2pjYBaklcutZczZ0ZgQL3Gwj5U8qLQ7vi0N1i0SOqIPmg6qt2tVU4zXoj7MF6OGcSkIRgaIuxHXid4dH6cGENDwby8SD56P-wwYMdIjv-6TMwkm2XLjJiZIFQ8xnhEzroA-jz2~lP-DRGDELLrNEYbSheg55M8DOufVKCqk1zUvi6Cw997d5oPq~l3XMNpNBnsiZ3M82UBuJOrzyofRovVB0ZPMWLvsRnMAVwQkB5d9hQPDMokuoeXNuh7A9zPXgqXW8J3b-09npoVbtDjswhWrpLvMzWgmltIdANQU9aFMWz0AtpBvnG87zdaqcwWCw__",
+      "name": "Leather Sofa",
+      "price": "121.65",
+      "description": "lorem ipsul set amet dolor amid lalalalaaa",
+      "category": "LIDDY",
+      "status": "true",
+      "color": [
+        "#000000",
+        "#aeff00"
+      ]
+    },
+    {
+      "id": "3661",
+      "image": "https://s3-alpha-sig.figma.com/img/aa28/d52e/51d5d8b52d95ddd1aa36c2c452718ed9?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=WylsNk1Q8rkwVUBnjH0FSyoPTACVJf~U1zZnqDLMHClnnkKRVNFazETeGCh8PnDehUPIjla-XrIW5Py4bpukhVTG2JQv-hQUUeLJUhOrKlgHmZTEHgxVNV22wUELu6YaFy9FZsDtR1Negtv7iMm-kE-e~5zc24dYvN-0og6VylVgCNOSEidbGqtn-z5CZo5funfkd0pGH20YzrRaMaiW~QfAYzGCSpY~Nhrj74oGgH6pzT-q~i2KH~SjmUmXJ7HYD35MDZ16xShwCmx423Pmh9ZmbqOdjiq0fANjaVQuwQU5C8f1jK~kW6OdjGvKJiy8MPNTTsAFdfm7-uCxnUvoxw__",
+      "name": "Chair",
+      "price": "150",
+      "description": "dasf fsd fsfsd fdsfedvz vcvdfgw gsdfewfef fdcscczcc fd sfqwf d as dsad",
+      "category": "MARCOS",
+      "status": "false",
+      "color": []
+    },
+    {
+      "id": "2d1e",
+      "image": "https://www.figma.com/file/kdKKnWIFOdGqVwVMdcBCGU/image/69efe1510c692763ae2e411fe1c9608723d4b0b1",
+      "name": "Dinner Table",
+      "price": "80",
+      "description": "w worjjwer ij ic nief ickoiiflnc jncjnwejn     jcenwjncjen kjncke wnkewc",
+      "category": "CARESSA",
+      "status": "false",
+      "color": [
+        "#ff0000",
+        "#8cff00"
+      ]
+    },
+    {
+      "id": "5580",
+      "image": "https://s3-alpha-sig.figma.com/img/b277/6c04/4f455653713a590883ef545452ff7ba9?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uDPWgTeSlV3UyO2ag2L4o5U8gR6XOb16MjXjGy9Oeehi4Xab76micXiInWEaKvnei9o1crWO-3I0FMIn3wFoRG8VLKmJo1cRBRX69p4YmbetoiqMpxXl4akaNsQOHdz9s8jtb9C~bgbsvh4VGujYXCtYvygdJ-TQrsnI31BatToMGBiaO9EtVgG2hy~lzn1fn1azuO0DMZMDTwSiTWISHDma04jTXxP9JAJgc90BMW3Vn8zdYGEpE7U55tPN-DtROBPjB~HzcvY9zzbPnXRbQftAcUNpA2gNnOCb~OTvE-942tqvnJJj3CC4JsFS54KBEbhjA1NWLoapoUg~z7MZig__",
+      "name": "Chair",
+      "price": "25.23",
+      "description": "fesf  sf asdvsdfsd d hfihididsf oi dcj ojdcij oidjccijoicjoijoadicj oijLorem is ijoc sdjcoiasdjic jsoicxjsoicj aosij soicj oidsjio jdsicj io jaisdcbbbbhbhbh hbhdsbchjsbd hbdisc",
+      "category": "CARESSA",
+      "status": "false",
+      "color": [
+        "#ff0000",
+        "#00457a",
+        "#087a00",
+        "#ff0000",
+        "#00fffb",
+        "#ffc800",
+        "#908e89"
+      ]
+    }
+  ]
+}

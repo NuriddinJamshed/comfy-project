@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 13vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+menu{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+menu a:hover{
+    color: #ff3535;
+}
+
+.card i{
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+}
+
+.card p{
+    text-align: center;
+    color: white;
+    background-color: #ff3535;
+    border-radius: 50%;
+    padding: 2px 5px;
+    width: 10px;
+    position: absolute;
+    top: 6px;
+    right: 4.5%;
+}
+
+section{
+    background-color: #F1F5F8;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+section h1{
+    padding-left: 5%;
+    color: #235275;
+}
+
+main{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    font-size: 48px;
+    color: #000000;
+}
+
+main h1 samp {
+    color: #BA5D2C;
+}
+
+main p{
+    width: 80%;
+    font-size: 24px;
+    color: #235275;
+    text-align: center;
+}
+
+main img{
+    width: 80%;
+}
+
+main div{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+main p{
+    text-align: left;
+}
+
+.line{
+    width: 4px;
+    background-color: #BA5D2C;
+}
+
+.img-qulait{
+    width: 50%;
+}
+
+footer{
+    padding: 20px;
+    background-color: #F1F5F8;
+    height: 10vh;
+    color: #235275;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.cardModal{
+    border: none;
+    width: 25%;
+    height: 110vh;
+    margin-left: 72%;
+    padding:20px;
+}
+
+.line-card h1{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.closeCardModal{
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 900;
+    color: #235275;
+    background-color: #fff;
+    border: none;
+}
+
+.card-box{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.card-box img{
+    width: 35%;
+    border-radius: 3px;
+    height: 100px;
+}
+
+.bag{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 65%;
+}
+
+.cnt-line{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cnt-line p{
+    font-size: 22px;
+}
+
+.cnt-line button {
+    font-size: 16px;
+    font-weight: 900;
+   background-color: #fff;
+   color: #BA5D2C;
+   border: 2px solid #BA5D2C;
+   padding: 0 3px;
+}
+
+.name-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-line p{
+    font-size: 20px;
+    font-weight: 10;
+    font-style: italic;
+}
+
+.name-line button{
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.main-line{
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.total-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.total-line p{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.check-total{
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #BA5D2C;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.price{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+@media (max-width: 400px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .card{
+        margin-top: 20px;
+    }
+    .card p{
+        top: 26vh;
+        right: 43%;
+    }
+    
+    section {
+        height: 20vh;
+    }
+    
+    section h1 {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    
+    main h1 {
+        font-size: 32px;
+    }
+    
+    main p {
+        font-size: 16px;
+        width: 90%;
+    }
+    
+    main img {
+        width: 100%;
+    }
+    
+    main div {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-qulait {
+        width: 100%;
+    }
+    
+    footer div {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    footer{
+        height: auto;
+    }
+    
+    .cardModal {
+        width: 100%;
+        height: auto;
+        margin-left: 5%;
+        padding: 10px;
+    }
+    
+    .total-line p {
+        font-size: 18px;
+    }
+    
+    .check-total {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+

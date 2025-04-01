@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <button class="addProduct">Add Product</button>
+    </nav>
+    <dialog class="addModal">
+        <form class="addForm">
+            <input type="url" placeholder="URL of image" name="addImg">
+            <input type="text" placeholder="Name" name="addName">
+            <textarea name="addDescription" placeholder="Description"></textarea>
+            <input type="text" placeholder="Price" name="addPrice">
+            <div>
+                <input type="color" placeholder="Color" name="addColor">
+                <button type="button" class="addColor">Add Color</button>
+            </div>
+            <select name="addCategory">
+                <option value="IKEA">IKEA</option>
+                <option value="MARCOS">MARCOS</option>
+                <option value="CARESSA">CARESSA</option>
+                <option value="LIDDY">LIDDY</option>
+            </select>
+            <select name="addStatus">
+                <option value="true">In Stock</option>
+                <option value="false">Out Of Stock</option>
+            </select>
+            <button type="submit" class="addBtn">Add Product</button>
+            <button type="button" class="closeAdd">Close</button>
+        </form>
+    </dialog>
+    <dialog class="editModal">
+        <form class="editForm">
+            <input type="url" placeholder="URL of image" name="addImg">
+            <input type="text" placeholder="Name" name="addName">
+            <textarea name="addDescription" placeholder="Description"></textarea>
+            <input type="text" placeholder="Price" name="addPrice">
+            <div>
+                <input type="color" placeholder="Color" name="addColor">
+                <button type="button" class="editColor">Add Color</button>
+            </div>
+            <select name="addCategory">
+                <option value="IKEA">IKEA</option>
+                <option value="MARCOS">MARCOS</option>
+                <option value="CARESSA">CARESSA</option>
+                <option value="LIDDY">LIDDY</option>
+            </select>
+            <select name="addStatus">
+                <option value="true">In Stock</option>
+                <option value="false">Out Of Stock</option>
+            </select>
+            <button type="submit" class="addBtn">Edit Product</button>
+            <button type="button" class="closeEdit">Close</button>
+        </form>
+    </dialog>
+    <div class="box"></div>
+    <script type="module" src="./JS/main.js"></script>
+</body>
+</html>
