@@ -27,14 +27,27 @@ let sum = 0;
 
 
 checkTotal.onclick = ()=>{
+    bagModal.innerHTML = "";
     bagModal.showModal();
     let data = JSON.parse(localStorage.getItem("card"));
     let closeBtn = document.createElement("button");
+    closeBtn.classList.add("close-btn");
     closeBtn.innerHTML = "❌";
     closeBtn.onclick = () => {
         bagModal.close();
+        bagModal.innerHTML = "";
     }
-    bagModal.appendChild(closeBtn);
+    let buy = document.createElement("button");
+    buy.classList.add("buy-btn");
+    buy.innerHTML = `Buy ${sum}`;
+    buy.onclick = () => {
+        alert("You has buy all of this products")
+        localStorage.setItem("card", JSON.stringify([]));
+        openCardModal()
+        bagModal.close();
+        alertP.innerHTML = 0;
+    }
+    bagModal.append(closeBtn, buy)
     data.forEach((el)=>{
         let cart = document.createElement("div");
         cart.classList.add("cart-item");

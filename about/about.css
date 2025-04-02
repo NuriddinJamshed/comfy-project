@@ -260,13 +260,26 @@ footer div{
     border: none;
 }
 
-.bagModal button{
+.close-btn{
     padding: 5px 10px;
     cursor: pointer;
     font-size: 24px;
     background-color: #fff;
     color: red;
     border: none;
+}
+
+.buy-btn{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 35%;
+    width: 20%;
+    padding: 8px 0;
+    background-color: #ff3535;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    font-size: 18px;
 }
 
 .cart-item{
@@ -360,6 +373,10 @@ footer div{
     .check-total {
         font-size: 18px;
         padding: 8px;
+    }
+    .buy-btn{
+        width: 50%;
+        margin-left: 10%;
     }
 }
 

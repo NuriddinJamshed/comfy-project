@@ -17,19 +17,33 @@ let sum = 0;
 let bagModal = document.querySelector(".bagModal");
 
 checkTotal.onclick = ()=>{
+    bagModal.innerHTML = "";
     bagModal.showModal();
     let data = JSON.parse(localStorage.getItem("card"));
     let closeBtn = document.createElement("button");
+    closeBtn.classList.toggle = "close-button";
     closeBtn.innerHTML = "❌";
     closeBtn.onclick = () => {
         bagModal.close();
+        bagModal.innerHTML = "";
     }
-    bagModal.appendChild(closeBtn);
+    let buy = document.createElement("button");
+    buy.classList.add("buy-btn");
+    buy.innerHTML = `Buy ${sum}`;
+    buy.onclick = () => {
+        alert("You has buy all of this products")
+        localStorage.setItem("card", JSON.stringify([]));
+        openCardModal()
+        bagModal.close();
+        alertP.innerHTML = 0;
+    }
+    bagModal.append(closeBtn, buy)
     data.forEach((el)=>{
         let cart = document.createElement("div");
         cart.classList.add("cart-item");
         let img = document.createElement("img");
         let div = document.createElement("div");
+        div.classList.add("cart-div");
         let name = document.createElement("h3");
         let price = document.createElement("p");
         let status = document.createElement("p");
