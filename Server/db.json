@@ -4,7 +4,7 @@
       "id": "1",
       "image": "https://s3-alpha-sig.figma.com/img/ccb4/cfa0/9b1eddecfc35aad30a53c084b51325cd?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jVIiFCtPSez5Zog~q-PHRsD~lgdK7JRI29HpyYm9rEsTgsf1Jx4CHD~v9I1aLSpOFRVWEBwOivFKg3xIOafingqbnmNAyHcO3tSs0md7Rd5lHrAknq6y-8F75kA8B28zAF7B6pDSj2eTI17l9QeVsJGCc0u6bWWBh4A99sM8M91VTgxViUVQxFfX36Ed05el5kOSxGXRIS8aRbJzat3ZxrKusq6Yn8185dj1DH-AQrFofI9-tuB7jfiEEZjrV5~3LB5JZdlwUTYZbi6ghEbo5DpXkMq3zr5f6RXmdMCiSxOCqAkx1V~1EwLAdeCswM4xyEukUln9tl4ZG-ztImbetg__",
       "name": "High-Back Bench",
-      "price": "10",
+      "price": "45",
       "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic  chillwave  trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge ",
       "category": "MARCOS",
       "status": "true",
@@ -129,6 +129,21 @@
         "#00fffb",
         "#ffc800",
         "#908e89"
+      ]
+    },
+    {
+      "id": "b9e7",
+      "image": "https://s3-alpha-sig.figma.com/img/ccb4/cfa0/9b1eddecfc35aad30a53c084b51325cd?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jVIiFCtPSez5Zog~q-PHRsD~lgdK7JRI29HpyYm9rEsTgsf1Jx4CHD~v9I1aLSpOFRVWEBwOivFKg3xIOafingqbnmNAyHcO3tSs0md7Rd5lHrAknq6y-8F75kA8B28zAF7B6pDSj2eTI17l9QeVsJGCc0u6bWWBh4A99sM8M91VTgxViUVQxFfX36Ed05el5kOSxGXRIS8aRbJzat3ZxrKusq6Yn8185dj1DH-AQrFofI9-tuB7jfiEEZjrV5~3LB5JZdlwUTYZbi6ghEbo5DpXkMq3zr5f6RXmdMCiSxOCqAkx1V~1EwLAdeCswM4xyEukUln9tl4ZG-ztImbetg__",
+      "name": "Chair",
+      "price": "10",
+      "description": "sfdf dfg sdgfsdfg dfgdfgfdgdfsfdvdf dfvuy dstcu huscxhushcjh udshc u shuc huchuhsduhdufh ushdcu hudhdsudh cuhdsuc",
+      "category": "CARESSA",
+      "status": "false",
+      "color": [
+        "#000000",
+        "#ff0000",
+        "#3700ff",
+        "#ffae00"
       ]
     }
   ]

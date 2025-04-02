@@ -179,3 +179,24 @@ nav{
     outline: none;
     resize: vertical;
 }
+
+@media (max-width: 400px){
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+   .box {
+    flex-direction: column;
+   }
+   .addModal, .editModal {
+        width: 100%;
+    }
+    .addForm, .editForm {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .card{
+        width: 100%;
+    }
+}

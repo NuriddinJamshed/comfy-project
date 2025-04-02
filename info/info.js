@@ -15,10 +15,35 @@ let bag = document.querySelector(".bag");
 let totalPrise = document.querySelector(".totalPrise");
 let checkTotal = document.querySelector(".check-total");
 let sum = 0;
-
+let bagModal = document.querySelector(".bagModal");
 
 checkTotal.onclick = ()=>{
-    alert("Your card has been checked")
+    bagModal.showModal();
+    let data = JSON.parse(localStorage.getItem("card"));
+    let closeBtn = document.createElement("button");
+    closeBtn.innerHTML = "❌";
+    closeBtn.onclick = () => {
+        bagModal.close();
+    }
+    bagModal.appendChild(closeBtn);
+    data.forEach((el)=>{
+        let cart = document.createElement("div");
+        cart.classList.add("cart-item");
+        let img = document.createElement("img");
+        let div = document.createElement("div");
+        let name = document.createElement("h3");
+        let price = document.createElement("p");
+        let status = document.createElement("p");
+        let category = document.createElement("p");
+        name.innerHTML = el.name;
+        price.innerHTML = `$${el.price}`;
+        status.innerHTML = el.status? "In Stock" : "Out of Stock";
+        category.innerHTML = "BY "+el.category.toUpperCase();
+        img.src = el.image;
+        div.append(name, price, category, status);
+        cart.append(img,div);
+        bagModal.append(cart)
+    })
 }
 
 totalPrise.innerHTML = sum;
@@ -31,9 +56,10 @@ function openCardModal() {
     bag.innerHTML = "";
     sum=0;
     let products = JSON.parse(localStorage.getItem("card"))
+    totalPrise.innerHTML = "";
     products.forEach((el) => {
-        totalPrise.innerHTML = "";
-        sum+=+el.price;
+        let priceSum = (Number(el.counter)*Number(el.price))
+        sum+=priceSum;
         totalPrise.innerHTML = sum;
         let box = document.createElement("div")
         box.classList.add("card-box")
@@ -56,22 +82,27 @@ function openCardModal() {
         div.append(name, delBtn)
         let price = document.createElement("p");
         price.classList.add("price");
-        price.innerHTML = `$${el.price}`;
+        price.innerHTML = `$${priceSum}`;
         let cnt = document.createElement("div");
+        let count = document.createElement("p");
+        count.innerHTML = el.counter;
         cnt.classList.add("cnt-line");
         let plus = document.createElement("button");
         plus.innerHTML = "+";
-        plus.onclick = () => {
-            el.counter++
-            count.innerHTML = el.counter;
+        plus.onclick = () => {  
+            plusCnt(el);
         }
-        let count = document.createElement("p");
-        count.innerHTML = el.counter;
         let minus = document.createElement("button");
-        minus.innerHTML = "-";
+        minus.innerHTML = "--";
         minus.onclick = () => {
-            el.counter--;
-            count.innerHTML = el.counter;
+            if(el.counter<=1){
+                let newProducts = products.filter((elem) => elem.id!== el.id);
+                localStorage.setItem("card", JSON.stringify(newProducts));
+                alertP.innerHTML = JSON.parse(localStorage.getItem("card")).length;
+                openCardModal()
+            }else{
+                minusCnt(el);
+            }
         }
         cnt.append(plus,count,minus);
         mainDiv.append(div, price, cnt);
@@ -79,6 +110,32 @@ function openCardModal() {
         bag.append(box);
         cardModal.showModal();
     });
+}
+
+function plusCnt(el){
+    let products = JSON.parse(localStorage.getItem("card"));
+    products.map((elem)=>{
+        if(elem.id==el.id){
+            elem.counter++;
+            return el;
+        }
+        return el;
+    });
+    localStorage.setItem("card", JSON.stringify(products)); 
+    openCardModal();
+}
+
+function minusCnt(el){
+    let products = JSON.parse(localStorage.getItem("card"));
+    products.map((elem)=>{
+        if(elem.id==el.id){
+            elem.counter--;
+            return el;
+        }
+        return el;
+    });
+    localStorage.setItem("card", JSON.stringify(products)); 
+    openCardModal();
 }
 
 closeCardModal.onclick = () => {
@@ -104,7 +161,6 @@ get()
 function getById(data){
     data.map((el)=>{
         if(el.id==id){
-            console.log(el);
             showInfo(el);
         }
         return el;
@@ -136,8 +192,6 @@ function showInfo(elem){
     addToCart.onclick = ()=>{
         let prToCard = JSON.parse(localStorage.getItem("card"));        
             let check = prToCard.filter((el)=>el.id==elem.id)
-            console.log(check);
-            
             if(check[0]){
                 prToCard = prToCard.map((el)=>{
                     if(el.id==elem.id){
