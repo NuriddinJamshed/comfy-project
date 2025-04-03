@@ -3,7 +3,8 @@ let box = document.querySelector(".box");
 let closeCardModal = document.querySelector(".closeCardModal");
 
 let alertP = document.querySelector(".alert")
-alertP.innerHTML = JSON.parse(localStorage.getItem("card")).length;
+let arr = JSON.parse(localStorage.getItem("card")) || [];
+alertP.innerHTML = arr.length;
 
 let corzin = document.querySelector(".card");
 
